@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/KironBackendProject/bin/Debug/net8.0
+/KironBackendProject/obj/Debug/net8.0
+/.vs
+KironBackendProject/obj
