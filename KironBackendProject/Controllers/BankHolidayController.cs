@@ -1,9 +1,11 @@
 ﻿using KironBackendProject.Services.Interfaces;
 using KironBackendProject.Services.Shared.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KironBackendProject.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("[controller]")]
     public class BankHolidayController : ControllerBase
